@@ -1567,7 +1567,7 @@ jquery__WEBPACK_IMPORTED_MODULE_1___default()(document).ready(function () {
     autoplay: true,
     center: true,
     nav: true,
-    navText: ["<img src='img/arrow-left.png'>", "<img src='img/arrow-right.png'>"],
+    navText: ["<img src='../img/arrow-left.png'>", "<img src='../img/arrow-right.png'>"],
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
     loop: true,
