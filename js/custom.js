@@ -207,47 +207,6 @@
         }
     });
 }*/
-$(document).ready(function () {
-    Pace.on('done', function () {
-        $('#preloader').delay(500).fadeOut(800);
-    });
-
-    /*
-[Core Script]
-Project: AppForms - Modern & Responsive Forms
-Version: 1.0
-*/
-
-
-    // Animation
-/*    var contentWayPoint = function () {
-        $('.animate-box').waypoint(function (direction) {
-            if (direction === 'down' && !$(this.element).hasClass('animated')) {
-                $(this.element).addClass('item-animate');
-                setTimeout(function () {
-                    $('body .animate-box.item-animate').each(function (k) {
-                        var el = $(this);
-                        setTimeout(function () {
-                            var effect = el.data('animate-effect');
-                            if (effect === 'fadeIn') {
-                                el.addClass('fadeIn animated');
-                            } else if (effect === 'fadeInLeft') {
-                                el.addClass('fadeInLeft animated');
-                            } else if (effect === 'fadeInRight') {
-                                el.addClass('fadeInRight animated');
-                            } else {
-                                el.addClass('fadeInUp animated');
-                            }
-                            el.removeClass('item-animate');
-                        }, k * 200, 'easeInOutExpo');
-                    });
-                }, 100);
-            }
-        }, {
-            offset: '85%'
-        });
-    };
-    contentWayPoint();*/
 
     // ScrollIt
     $.scrollIt({
@@ -269,6 +228,15 @@ Version: 1.0
         onPageChange: null,       // function(pageIndex) that is called when page is changed
         topOffset: -500            // offste (in px) for fixed top navigation
     });
+$(document).ready(function () {
+    Pace.on('done', function () {
+        $('#preloader').delay(500).fadeOut(800);
+    });
+
+
+
+
+
 
     // Main footer
     var footer = $("footer").outerHeight();
