@@ -229,11 +229,6 @@
         topOffset: -500            // offste (in px) for fixed top navigation
     });
 $(document).ready(function () {
-paceOptions = {
-    ajax: true,
-    document: true,
-    eventLag: false
-};
 Pace.on('done', function() {
   $('#preloader').delay(500).fadeOut(800);
 });
